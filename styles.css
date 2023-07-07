@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.table-container {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+tr:hover {
+    background-color: rgba(182, 182, 182, 0.432);
+}
+
+th {
+    background-color: #000000;
+    color: white;
+}
+
+.crypto-logo {
+    width: 40px;
+}
+
+.crypto-name {
+    font-weight: bold;
+}
+
+.crypto-price {
+    color: green;
+}
+
+.crypto-price-change-negative {
+    color: red;
+}
+
+.crypto-price-change-positive {
+    color: green;
+}
+
+input {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+
+.searchByName {
+    margin-bottom: 20px;
+}
+
